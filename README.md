@@ -1,5 +1,13 @@
 # Data Engineering Assessment Documentation
 
+👉 **Link to Project Script**
+Use this link to access the entire material used for this project
+[Script](https://github.com/kiddojazz/AutoCheck_Repo/tree/master/Script)
+
+👉 **Link to Project Documentation**
+Use this link to access the entire material used for this project
+[Documentation](https://github.com/kiddojazz/AutoCheck_Repo/blob/master/Data%20Engineering%20Assessment%20Documentation.docx)
+
 ## Introduction
 Autochek Africa is an Automotive Technology development company that builds solutions aimed at enabling and enhancing commerce within the automotive sector. We focus on solutions that improve access to Auto loans, quality maintenance / after-sales services, warranty solutions, and transactional marketplaces.
 
@@ -7,11 +15,11 @@ Autochek Africa is an Automotive Technology development company that builds solu
 We are tasked to create an ETL pipeline that reads data from a particular folder. Data are dropped on a daily, we need to create a logic that picks the latest file based on the last modified data, performs all necessary transformations, and loads the data into an Azure SQL Database (Data Warehouse).
 
 The entire process needs to be automated and monitored. We are going to create a CRON job in a Windows Server (VM) and automate the Python script using a .bat file in the process.
-![alt text]([image.jpg](https://github.com/kiddojazz/AutoCheck_Repo/blob/master/Images/arc_1.png)
+![alt text](https://github.com/kiddojazz/AutoCheck_Repo/blob/master/Images/arc_1.png)
 
 ## Alternative Architecture
 The IaaS approach was used due to cost saving, you can consider other approaches like modern data stack or Platform as a Service (AWS, Azure, or GCP).
-![alt text]([image.jpg](https://github.com/kiddojazz/AutoCheck_Repo/blob/master/Images/arc_2.png)
+![alt text](https://github.com/kiddojazz/AutoCheck_Repo/blob/master/Images/arc_2.png)
 
 # Data Gathering
 ## Introduction
