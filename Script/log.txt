@@ -1,0 +1,8 @@
+07-08-Wed 09:36:AM Running borrow script 
+  Borrower_Id  State    City  zip code borrower_credit_score
+0     123fd35   dfgc  12olki     19473                     4
+1     123fd36  rtgio   89hfg    923475                     a
+Error writing to SQL Database: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_borrow_id'. Cannot insert duplicate key in object 'autocheck.borrow'. The duplicate key value is (123fd35). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[SQL: INSERT INTO autocheck.borrow ([Borrower_Id], [State], [City], [zip code], borrower_credit_score, ingestion_date) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (('123fd35', 'dfgc', '12olki', 19473, '4', datetime.datetime(2024, 8, 7, 8, 36, 29, 807484)), ('123fd36', 'rtgio', '89hfg', 923475, 'a', datetime.datetime(2024, 8, 7, 8, 36, 29, 807484)))]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
